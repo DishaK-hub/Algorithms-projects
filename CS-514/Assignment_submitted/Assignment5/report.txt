@@ -1,0 +1,39 @@
+1. Maximum Weighted Independent Set 
+   Q: What's the complexity?
+   A: The time complexity is O(n)
+   
+2. Number of n-node BSTs
+
+   Qa: What's the complexity of this DP?
+   A: O(n)
+   
+   Qb: What's the name of this famous number series?
+   A: Catalan series
+
+Debriefing (required!): --------------------------
+
+0. What's your name?
+A: Disha Basavaraja Kanavikar
+
+1. Approximately how many hours did you spend on this assignment?
+A: 7 hours 
+
+2. Would you rate it as easy, moderate, or difficult?
+A: Moderate
+
+3. Did you work on it mostly alone, or mostly with other people?
+A: Mostly alone
+
+4. How deeply do you feel you understand the material it covers (0%-100%)? 
+A: 70%
+
+5. Which part(s) of the course you like the most so far?
+A: Python programming and Sorting 
+
+6. Which part(s) of the course you dislike the most so far?
+A: Time complexity
+
+7. Take a moment to reflect on your Quiz 1 and Quiz 2 performance,
+   (make sure you understand all the problems that you got wrong),
+   and what you plan to achieve in the Midterm.
+A: I went through my quiz 1 and quiz 2 performances. I plan to achieve more than 70% in midterms

@@ -1,0 +1,53 @@
+Debriefing (required!): --------------------------
+
+0. What's your name?
+Disha Basavaraja Kanavikar
+1. Approximately how many hours did you spend on this assignment?
+9
+2. Would you rate it as easy, moderate, or difficult?
+Difficult
+3. Did you work on it mostly alone, or mostly with other people?
+Mostly alone
+4. How deeply do you feel you understand the material it covers (0%-100%)? 
+60%
+5. Which part(s) of the course you like the most so far?
+Sorting
+6. Which part(s) of the course you dislike the most so far?
+Dynamic Programming
+
+-------------------------------------------------------------------------------------
+1. Unbounded Knapsack
+
+   (a) Describe a greedy solution.
+	We can sort the items in decreasing order of value per unit of weight. We can proceed to insert them into the sack, starting with as many copies as possible of the first kind of item until there is no longer space in the sack for more. Provided that there is an unlimited supply of each kind of item, if m is the maximum value of items that fit into the sack, then the greedy algorithm is guaranteed to achieve at least a value of m/2.
+	
+   (b) Show a counterexample to the greedy solution.
+   
+   (c) Define the DP subproblem 
+   (d) Write the recurrence relations
+   (e) Do not forget base cases
+   (f) Analyze the space and time complexities
+   
+2. Bounded Knapsack
+
+   (a) Describe a greedy solution.
+	For the bounded problem, where the supply of each kind of item is limited, the above algorithm may be far from optimal. Nevertheless, a simple modification allows us to solve this case: Assume for simplicity that all items individually fit in the sack (wi < W} for all i). Construct a solution S1 by packing items greedily as long as possible, i.e. S1 ={ 1, .. ,k } where k =max( summation wi} <= W. Furthermore, construct a second solution S2 = { k+1 } containing the first item that did not fit. Since S1 U S2 provides an upper bound for the LP relaxation of the problem, one of the sets must have value at least m/2; we thus return whichever of S1 and S2 has better value to obtain a 1/2-approximation.
+	
+   (b) Show a counterexample to the greedy solution.
+   
+   (c) Define the DP subproblem 
+   (d) Write the recurrence relations
+   (e) Do not forget base cases
+   (f) Analyze the space and time complexities
+   
+   
+   
+1. Unbounded Knapsack
+Q: What are the time and space complexities?
+A: Time complexity = O(nW)
+   Space complexity = O(nW)
+	
+2. Bounded Knapsack
+Q: What are the time and space complexities?
+A: Time complexity = O(WC)
+   Space complexity = O(WC)

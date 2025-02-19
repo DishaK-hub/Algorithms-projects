@@ -1,0 +1,30 @@
+CS 514, HW10, RNA
+Report
+
+1. best:
+
+(regardless of CKY or Nussinov)
+O(n^3) time, O(n^2) space
+
+2. total:
+
+(only Nussinov works)
+same as the above (just different semiring operators).
+
+3. kbest:
+
+(see midterm q3 for analysis)
+
+O(E + V k log d_max) => O(n^3 + n^2 k log (n+k))
+
+if k << n and you run qselect before heapify (optional minor speedup):
+O(E + V k log k) => O(n^3 + n^2 k log k)
+
+Notes:
+
+1. This is Algorithm 2 of Huang and Chiang (2005), as in our implementations.
+Algorithm 3 in that paper reduces it further to O(n^3 + n k log k) by only solving the k-best for the final node (and not for all nodes), but that's beyond the scope of this course.
+
+2. You can use CKY but then you need to check for duplicate structures due to overcounting; if you use Nussinov (as in KT), you don't need that check as there is no overcounting.
+
+3. The Final will feature k-best Viterbi on graph instead of hypergraph, using a skeleton code similar to (but simpler than) our codes.

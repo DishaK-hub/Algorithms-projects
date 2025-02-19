@@ -1,0 +1,33 @@
+0. For the following graphs, decide whether they are
+   (1) directed or undirected, (2) dense or sparse, and (3) cyclic or acyclic:
+
+   (a) Facebook undirected, sparse, cyclic
+   (b) Twitter directed, sparse, cyclic
+   (c) a family - undirected, dense, cyclic
+   (d) V=airports, E=direct_flights - directed, sparse, acyclic [DAG]
+   (e) a mesh - undirected, sparse, cyclic 
+   (f) V=courses, E=prerequisites - directed, sparse, acyclic [DAG]
+   (g) a tree - directed, sparse, acyclic
+   (h) V=linux_software_packages, E=dependencies - directed, sparse, acyclic [DAG]
+   (i) DP subproblems for 0-1 knapsack - directed, sparse, acyclic [DAG]
+
+   Can you name a very big dense graph? 
+   
+   
+Debriefing (required!): --------------------------
+
+0. What's your name?
+A. Disha Kanavikar
+1. Approximately how many hours did you spend on this assignment?
+A. 7 hours
+2. Would you rate it as easy, moderate, or difficult?
+A. Difficult
+3. Did you work on it mostly alone, or mostly with other people?
+A. Mostly alone but discussed few things with a friend 
+4. How deeply do you feel you understand the material it covers (0%-100%)?
+A. 80%
+5. Take a moment to reflect on your midterm performance; separate the data structures and DP parts.
+   Now, do you understand all the problems you didn't solve correctly?
+A. Yes 
+6. Any other comments?
+A. No

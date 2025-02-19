@@ -1,0 +1,35 @@
+0. Which of the following sorting algorithms are (or can be made) stable?
+   (a) mergesort
+   (b) quicksort with the first element as pivot
+   (c) quicksort with randomized pivot
+   (d) selection sort (assuming you've learned it in data structures)
+   (e) insertion sort (assuming you've learned it in data structures)
+   (f) heap sort 
+   
+ A:  
+   (a) mergesort : stable
+   (b) quicksort with the first element as pivot : unstable
+   (c) quicksort with randomized pivot : unstable
+   (d) selection sort (assuming you've learned it in data structures) : unstable, can be made stable by inserting elements into the first place
+   (e) insertion sort (assuming you've learned it in data structures) : stable
+   (f) heap sort : unstable
+   
+   
+   
+  Debriefing (required!): --------------------------
+
+1. Approximately how many hours did you spend on this assignment?
+A: 8 hours
+
+2. Would you rate it as easy, moderate, or difficult?
+A: Moderate
+
+3. Did you work on it mostly alone, or mostly with other people?
+   Note you are encouraged to discuss with your classmates, 
+   but each students should submit his/her own code.
+A: I worked on it with my friend for the logic but wrote my own code.
+
+4. How deeply do you feel you understand the material it covers (0%-100%)? 
+A: 70%
+
+5. Any other comments?
